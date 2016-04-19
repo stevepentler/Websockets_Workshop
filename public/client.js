@@ -6,6 +6,7 @@ let connectionCount = document.getElementById('connection-count');
 let statusMessage = document.getElementById('status-message');
 let buttons = document.querySelectorAll('#choices button');
 let tally = document.getElementById('tally');
+let userVote = document.getElementById('user-vote');
 
 socket.on('usersConnected', function (count) {
   connectionCount.innerText = 'Connected Users: ' + connectionCount;
@@ -22,5 +23,7 @@ socket.on('voteCount', function (votes) {
 for (var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', function() {
     socket.send('voteCast', this.innerText);
+    userVote.innerText = `You voted for:  ${this.innerText}`;
+
   });
 }
