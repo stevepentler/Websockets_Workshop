@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/stevepentler/Websockets_Workshop/issues"
   },
-  "homepage": "https://github.com/stevepentler/Websockets_Workshop#readme"
+  "homepage": "https://github.com/stevepentler/Websockets_Workshop#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.11.1",
+    "socket.io": "^1.4.5"
+  }
 }
