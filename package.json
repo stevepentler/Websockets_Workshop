@@ -1,0 +1,23 @@
+{
+  "name": "ask-the-audience",
+  "version": "1.0.0",
+  "description": "web sockets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevepentler/Websockets_Workshop.git"
+  },
+  "keywords": [
+    "websockets"
+  ],
+  "author": "steve pentler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevepentler/Websockets_Workshop/issues"
+  },
+  "homepage": "https://github.com/stevepentler/Websockets_Workshop#readme"
+}
